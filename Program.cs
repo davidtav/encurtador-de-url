@@ -12,6 +12,7 @@ if (!app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
+app.UseStaticFiles();
 app.MapCarter();
 
 app.Run();
