@@ -44,7 +44,7 @@ function handleSubmitAsync() {
 
         document.getElementById("urlResult").innerHTML = anchor;
       } else {
-        alert(json.errorMessage);
+        alert(json.error);
       }
     });
 }
